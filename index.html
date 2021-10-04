@@ -15,321 +15,113 @@
       </div>
     </div>
     <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container" id="dark">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
-          ><span class="blue-text">Market Data</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
-        async
-      >
-          {
-          "width": "100%",
-          "height": "600",
-          "symbolsGroups": [
-          {
-            "name": "Stocks",
-            "symbols": [
-              {
-                "name": "NASDAQ:AMZN",
-                "displayName": "AMZN - Amazon"
-              },
-              {
-                "name": "TSX:BB",
-                "displayName": "BB - Blackberry"
-              },
-              {
-                "name": "TSX:BEPC",
-                "displayName": "BEPC - Brookfield Renewable"
-              },
-              {
-                "name": "TSX:BEP.UN",
-                "displayName": "BEP.UN - Brookfield Renewable"
-              },
-              {
-                "name": "TSX:BIP.UN",
-                "displayName": "BIP.UN - Brookfield Infrastructure"
-              },
-              {
-                "name": "TSX:BMO",
-                "displayName": "BMO - Bank of Montreal"
-              },
-              {
-                "name": "NASDAQ:CLAR",
-                "displayName": "CLAR - Clarus (BD)"
-              },
-              {
-                "name": "NYSE:GME",
-                "displayName": "GME - Gamestop"
-              },
-              {
-                "name": "TSXV:GRN",
-                "displayName": "GRN.V - Greenlane Renewables"
-              },
-              {
-                "name": "TSX:GRT.UN",
-                "displayName": "GRT.UN - Granite REIT"
-              },
-              {
-                "name": "TSX:LSPD",
-                "displayName": "LSPD - Lightspeed"
-              },
-              {
-                "name": "NASDAQ:MSFT",
-                "displayName": "MSFT - Microsoft"
-              },
-              {
-                "name": "NYSE:PLTR",
-                "displayName": "PLTR - Palantir"
-              },
-              {
-                "name": "TSX:VET",
-                "displayName": "VET - Vermillion Energy"
-              }
-            ]
-          },
-          {
-            "name": "ETFs",
-            "symbols": [
-              {
-                "name": "NASDAQ:BOTZ",
-                "displayName": "BOTZ - Robots & AI"
-              },
-              {
-                "name": "AMEX:IPAY",
-                "displayName": "IPAY - Mobile/FinTech"
-              },
-              {
-                "name": "NASDAQ:QCLN",
-                "displayName": "QCLN - Clean Energy Index"
-              },
-              {
-                "name": "NASDAQ:SKYY",
-                "displayName": "SKYY - Cloud Computing"
-              },
-              {
-                "name": "TSX:TEC",
-                "displayName": "TEC - Technology Index"
-              },
-              {
-                "name": "TSX:XIT",
-                "displayName": "XIT - CAD Tech Index"
-              },
-              {
-                "name": "TSX:ZRE",
-                "displayName": "ZRE - REITs"
-              },
-              {
-                "name": "TSX:ZUT",
-                "displayName": "ZUT - Utilities"
-              },
-              {
-                "name": "TSX:ZWB",
-                "displayName": "ZWB - CC Banks"
-              },
-              {
-                "name": "TSX:ZWU",
-                "displayName": "ZWU - CC Utilities"
-              }
-            ]
-          },
-          {
-            "name": "Watch List",
-            "symbols": [
-              {
-                "name": "NASDAQ:CRSR",
-                "displayName": "CRSR - Corsair"
-              },
-              {
-                "name": "NYSE:DM",
-                "displayName": "DM - Desktop Metal"
-              },
-              {
-                "name": "NYSE:PRLB",
-                "displayName": "PRLB - PROTO Labs"
-              },
-              {
-                "name": "AMEX:PRNT",
-                "displayName": "PRNT - 3D Printing"
-              },
-              {
-                "name": "NYSE:SQ",
-                "displayName": "SQ - Square"
-              }
-            ]
-          }
-        ],
-          "showSymbolLogo": true,
-          "colorTheme": "dark",
-          "isTransparent": true,
-          "locale": "en"
-        }
-      </script>
-    </div>
-    <!-- TradingView Widget END -->
-    <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container" id="light">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com" rel="noopener" target="_blank"
-          ><span class="blue-text">Market Data</span></a
-        >
-        by TradingView
-      </div>
-      <script
-        type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
-        async
-      >
-      {
-        "width": "100%",
-        "height": "600",
-        "symbolsGroups": [
+    <div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">보유기업</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": "100%",
+  "height": "700",
+  "symbolsGroups": [
+    {
+      "name": "보유기업",
+      "originalName": "Indices",
+      "symbols": [
         {
-          "name": "Stocks",
-          "symbols": [
-            {
-              "name": "NASDAQ:AMZN",
-              "displayName": "AMZN - Amazon"
-            },
-            {
-              "name": "TSX:BB",
-              "displayName": "BB - Blackberry"
-            },
-            {
-              "name": "TSX:BEPC",
-              "displayName": "BEPC - Brookfield Renewable"
-            },
-            {
-              "name": "TSX:BEP.UN",
-              "displayName": "BEP.UN - Brookfield Renewable"
-            },
-            {
-              "name": "TSX:BIP.UN",
-              "displayName": "BIP.UN - Brookfield Infrastructure"
-            },
-            {
-              "name": "TSX:BMO",
-              "displayName": "BMO - Bank of Montreal"
-            },
-            {
-              "name": "NASDAQ:CLAR",
-              "displayName": "CLAR - Clarus (BD)"
-            },
-            {
-              "name": "NYSE:GME",
-              "displayName": "GME - Gamestop"
-            },
-            {
-              "name": "TSXV:GRN",
-              "displayName": "GRN.V - Greenlane Renewables"
-            },
-            {
-              "name": "TSX:GRT.UN",
-              "displayName": "GRT.UN - Granite REIT"
-            },
-            {
-              "name": "TSX:LSPD",
-              "displayName": "LSPD - Lightspeed"
-            },
-            {
-              "name": "NASDAQ:MSFT",
-              "displayName": "MSFT - Microsoft"
-            },
-            {
-              "name": "NYSE:PLTR",
-              "displayName": "PLTR - Palantir"
-            },
-            {
-              "name": "TSX:VET",
-              "displayName": "VET - Vermillion Energy"
-            }
-          ]
+          "name": "KRX:051905",
+          "displayName": "LG생활건강우"
         },
         {
-          "name": "ETFs",
-          "symbols": [
-            {
-              "name": "NASDAQ:BOTZ",
-              "displayName": "BOTZ - Robots & AI"
-            },
-            {
-              "name": "AMEX:IPAY",
-              "displayName": "IPAY - Mobile/FinTech"
-            },
-            {
-              "name": "NASDAQ:QCLN",
-              "displayName": "QCLN - Clean Energy Index"
-            },
-            {
-              "name": "NASDAQ:SKYY",
-              "displayName": "SKYY - Cloud Computing"
-            },
-            {
-              "name": "TSX:TEC",
-              "displayName": "TEC - Technology Index"
-            },
-            {
-              "name": "TSX:XIT",
-              "displayName": "XIT - CAD Tech Index"
-            },
-            {
-              "name": "TSX:ZRE",
-              "displayName": "ZRE - REITs"
-            },
-            {
-              "name": "TSX:ZUT",
-              "displayName": "ZUT - Utilities"
-            },
-            {
-              "name": "TSX:ZWB",
-              "displayName": "ZWB - CC Banks"
-            },
-            {
-              "name": "TSX:ZWU",
-              "displayName": "ZWU - CC Utilities"
-            }
-          ]
+          "name": "KRX:086450",
+          "displayName": "동국제약"
         },
         {
-          "name": "Watch List",
-          "symbols": [
-            {
-              "name": "NASDAQ:CRSR",
-              "displayName": "CRSR - Corsair"
-            },
-            {
-              "name": "NYSE:DM",
-              "displayName": "DM - Desktop Metal"
-            },
-            {
-              "name": "NYSE:PRLB",
-              "displayName": "PRLB - PROTO Labs"
-            },
-            {
-              "name": "AMEX:PRNT",
-              "displayName": "PRNT - 3D Printing"
-            },
-            {
-              "name": "NYSE:SQ",
-              "displayName": "SQ - Square"
-            }
-          ]
+          "name": "NASDAQ:GOOGL",
+          "displayName": "구글"
+        },
+        {
+          "name": "KRX:072990",
+          "displayName": "에이치시티"
+        },
+        {
+          "name": "KRX:033780",
+          "displayName": "KT&G"
+        },
+        {
+          "name": "NASDAQ:FB",
+          "displayName": "페이스북"
+        },
+        {
+          "name": "NYSE:BABA",
+          "displayName": "알리바바"
+        },
+        {
+          "name": "AMEX:SRVR",
+          "displayName": "SRVR"
+        },
+        {
+          "name": "NYSE:DLR",
+          "displayName": "DLR"
+        },
+        {
+          "name": "NASDAQ:ABNB",
+          "displayName": "에어비앤비"
+        },
+        {
+          "name": "NYSE:KO",
+          "displayName": "코카콜라"
+        },
+        {
+          "name": "KRX:030190",
+          "displayName": "나이스평가정보"
+        },
+        {
+          "name": "KRX:092130",
+          "displayName": "이크레더블"
+        },
+        {
+          "name": "KRX:005945",
+          "displayName": "NH투자증권우"
+        },
+        {
+          "name": "NYSE:O",
+          "displayName": "Realty Income"
+        },
+        {
+          "name": "KRX:049720",
+          "displayName": "고려신용정보"
+        },
+        {
+          "name": "NASDAQ:AAPL",
+          "displayName": "Apple"
+        },
+        {
+          "name": "NASDAQ:SBUX",
+          "displayName": "스타벅스"
+        },
+        {
+          "name": "KRX:024110",
+          "displayName": "기업은행"
+        },
+        {
+          "name": "KRX:130580",
+          "displayName": "나이스디앤비"
+        },
+        {
+          "name": "OTC:TCEHY",
+          "displayName": "텐센트"
         }
-      ],
-        "showSymbolLogo": true,
-        "colorTheme": "light",
-        "isTransparent": true,
-        "locale": "en"
-      }
-      </script>
-    </div>
-    <!-- TradingView Widget END -->
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "kr"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
     <!-- Custom JS for widget styling BEGIN -->
     <script src="app.js"></script>
     <!-- Custom JS END -->
